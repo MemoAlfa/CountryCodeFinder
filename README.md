@@ -13,18 +13,13 @@ the data should be a list of countries with their country code
 Please download the base data from http://pastebin.com/raw.php?i=943PQQ0n
 
 # Solution Notes:
+## language and frameworks choice:<br>
 I was tempted to use django-python, then I
 decided to use java with spring,hsqldb for virtual
 sql database and vaadin that makes front-end
 developments extremely fast.<p>
-Upon running the server the dataset will be
-downloaded, parsed and presisted only once.
-I also wanted to include AOP with SpringAop,
-but since the challenge only mentioned separate
-concern not cross-cutting concern I was
-reluctant.<p>
-About the projcet infrastructure choice, I wanted
-it to KISS as much as possible, except when it
+## About the projcet infrastructure choice:<br>
+I wantedit to KISS as much as possible, except when it
 came to modularity and scalability so I chose to
 cut the layers of the app into seperate modules
 included in an agregator module, through my
@@ -33,6 +28,14 @@ individuals of the team work on specific layer of
 the app, every module would have its own tests,
 helps the spead of running maven goals, and
 keeps poms clean.<p>
+## getting the dataset
+Upon running the server the dataset will be
+downloaded, parsed and presisted only once.
+I also wanted to include AOP with SpringAop,
+but since the challenge only mentioned separate
+concern not cross-cutting concern I was
+reluctant.<p>
+
 Most of the unit tests are in the service layer
 module in the sevice module
 As for the UI I kept it effective, responsive and minimal
