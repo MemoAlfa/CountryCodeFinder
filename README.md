@@ -16,12 +16,12 @@ Please download the base data from http://pastebin.com/raw.php?i=943PQQ0n
 ## language and frameworks choice:<br>
 I was tempted to use django-python, then I
 decided to use java with spring,hsqldb for virtual
-sql database and vaadin that makes front-end<br>
+sql database and vaadin that makes front-end
+developments extremely fast
 I also wanted to include AOP with SpringAop,
 but since the challenge only mentioned separate
 concern not cross-cutting concern I was
 reluctant.<p>
-developments extremely fast.<p>
 ## About the projcet infrastructure choice:<br>
 I wantedit to KISS as much as possible, except when it
 came to modularity and scalability so I chose to
