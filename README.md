@@ -12,7 +12,7 @@ preferably the implementation should be written in "clean code", separate concer
 the data should be a list of countries with their country code
 Please download the base data from http://pastebin.com/raw.php?i=943PQQ0n
 
-# Solution
+# Solution Notes:
 I was tempted to use django-python, then I
 decided to use java with spring,hsqldb for virtual
 sql database and vaadin that makes front-end
