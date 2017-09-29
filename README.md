@@ -38,5 +38,5 @@ downloaded, parsed and presisted only once.
 <p>
 
 Most of the unit tests are in the service layer
-module in the sevice module
+module.<br>
 As for the UI I kept it effective, responsive and minimal
